@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px 0 150px;
+}
+header{
+    background: url(../image/slider_img.jpg);
+}
+/* navigation part start */
+.container{
+    padding: 0 100px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    padding: 0 30px; 
+}
+.menu> li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* navigation part end */
+/* sliser part start */
+.slider_con{
+    padding-top: 150px;
+    text-align: center;
+}
+.slider_con h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+}
+.slider_con p{
+    font-size: 22px;
+    color: #fff;
+}
+.btn{
+    font-size: 13px;
+    margin-top: 70px;
+    padding: 15px 50px ;
+    background: #e84545;
+    color: #fff;
+    border: 2px solid #e84545;
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid hsl(0, 0%, 100%);
+    color: #e84545;
+}
+/* sliser part end */
+
+/* feature part start */
+.feature_part{
+    padding: 90px 0;
+}
+.col-4{
+    padding: 35px 0;
+}
+.feature_con{
+    padding: 0 40px;
+}
+.feature_con h5{
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    padding: 30px 0;
+}
+.feature_con p{
+    font-size: 14px;
+    color: #6c7279;
+}
+.feature_icon{
+    margin-top: 30px;
+}
+/* feature part end */
+
+/* port part start */
+.port_con_main .row .col-3, .port_con_main .row .col-4, .port_con_main .row .col-6{
+    padding:0;
+}
+.port_img{
+    position: relative;
+}
+.port_img_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(222, 69, 64, 0.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    /* padding: 75px 0; */
+    opacity: 0;
+}
+.port_img_overlay h6{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.port_img_overlay p{
+    font-size: 14px;
+    color: #fff;
+}
+.port_img_overlay:hover{
+    opacity: 1;
+}
+
+/* port part end */
+
+/* team part start */
+.team_part{
+    padding: 100px 0;
+}
+
+.team_con h5{
+    padding: 30px 0 15px;
+    font-size: 22px;
+    color: #2d3033;
+}
+.team_con h6{
+    font-size: 13px;
+    color: #e84545;
+}
+.team_con p{
+    padding: 30px 0;
+    font-size: 14px;
+    color: #6c7279;
+}
+.team_icon{
+    display: flex;
+}
+.team_icon i{
+    /* padding: 10px; */
+    color: #c6cacc;
+    border: 2px solid #c6cacc;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+/* team part end */
+
+/* clint part start */
+.clint_con{
+    background: #53354a;
+    padding: 74px 70px 90px;
+    max-height: 415px;
+}
+.clint_con h2{
+    font-size: 36px;
+    color: #fff;
+}
+.clint_con p{
+    font-size: 13px;
+    color: #fff;
+    padding: 30px 0;
+}
+.clint_down_con{
+    padding: 80px 0;
+}
+.clint_down_con h5{
+    font-size: 28px;
+    color: #2d3033;
+}
+.clint_down_con h6{
+    font-size: 13px;
+    color: #3d3033;
+    padding: 20px 0 40px;
+    font-weight: 700;
+}
+.clint_down_con a{
+    text-decoration: none;
+    color: #fff;
+    background: #e84545;
+    padding: 18px 80px;
+}
+.clint_down_con a:hover{
+    background: #a30606;
+}
+/* clint part end */
+
+/* contract part start */
+.cont_part{
+    background: #3a3e64;
+    padding: 70px 0 70px;
+}
+.cont_con h5{
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.cont_con p{
+    font-size: 14px;
+    color: #84879f; 
+     
+}
+.cont_con{
+    padding-bottom: 30px;
+}
+.cont_icon i{
+    color: #fff;
+    border: 2px solid #fff;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    text-decoration: none;
+}
+.cont_icon{
+    display: flex;
+    justify-content: center;
+}
+/* contract part end */
+
+/* footer part start */
+.footer_part{
+    padding: 30px 0;
+    background: #313454;
+}
+.footer_con p{
+    font-size: 14px;
+    color: #808080;
+}
+ 
+
+/* footer part end */
